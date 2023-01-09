@@ -8,9 +8,9 @@ animal === "cat"
 var job = animal === "cat" ? "cat herder" : "dog catcher";
 
 // More info:
-// https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Statements#if...else_Statement
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#if...else_statement
 //
 // Truthy and falsy values are discussed here:
 // https://developer.mozilla.org/en-US/docs/Glossary/Truthy
 //
-// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Operators/Conditional_Operator
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator

@@ -8,7 +8,7 @@ var calvin = {
 // because objects are passed by reference, the argument will be modified
 function transmogrifier(calvin) {
   if (typeof calvin !== "object") {
-    console.error("argument is of the wrong type");
+    console.error("Calvin is not an object.");
     return;
   }
 
@@ -81,5 +81,6 @@ function transmogrifyCopy(calvin) {
 }
 
 // More info:
-// https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Functions
-// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Statements/function
+// https://en.wikipedia.org/wiki/Calvin_and_Hobbes
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function

@@ -1,33 +1,19 @@
 var myArray = [];
 myArray;
 
-var daysOfTheWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday'];
+var daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday"];
 daysOfTheWeek;
 
-var myArray = [
-0, 1, 2,
-'string1', 'string2', 'string3',
-true, false
-];
-myArray;
+var myList = [0, 1, 2, "string1", "string2", "string3", true, false];
+myList;
 
-var counties = [
-	'Belknap',
-	'Strafford',
-	'Carroll',
-	'Rockingham'
-];
+var counties = ["Belknap", "Strafford", "Carroll", "Rockingham"];
 counties;
 
-var arrayOfStuff = [
-	{'name' : 'value'},
-	[1, 2, 3],
-	true,
-	'nifty'
-];
-arrayOfStuff;
-arrayOfStuff.length;
+var listOfStuff = [{ name: "value" }, [1, 2, 3], true, "nifty"];
+listOfStuff;
+listOfStuff.length;
 
 // More info:
-// https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Values%2C_variables%2C_and_literals#Array_literals
-// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#array_literals
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array

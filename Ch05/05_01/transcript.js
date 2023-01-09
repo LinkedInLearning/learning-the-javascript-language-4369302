@@ -1,4 +1,4 @@
-for (var i = 0; i < 10; i += 1) {
+for (let i = 0; i < 10; i += 1) {
   console.log(i);
 }
 
@@ -39,5 +39,5 @@ for (i = 0; i < pageNames.length; i += 1) {
 }
 
 // More info:
-// https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Statements#for_Statement
-// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Statements/for
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for

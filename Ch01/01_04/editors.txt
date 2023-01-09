@@ -1,6 +1,5 @@
 https://code.visualstudio.com/
 https://www.sublimetext.com/
-https://atom.io/
 http://brackets.io/
 https://www.jetbrains.com/phpstorm/
 https://www.jetbrains.com/webstorm/

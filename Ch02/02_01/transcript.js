@@ -12,12 +12,11 @@ x;
 whereAmI = 75;
 whereAmI;
 
-var monster1 = "Grover",
-  monster2 = "Cookie Monster",
-  monster3 = "Animal";
+var monster1 = "Grover", monster2 = 'Cookie Monster', monster3 = 'Animal';
 monster1;
 monster2;
 monster3;
+
 
 // More info:
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var

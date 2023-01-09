@@ -6,7 +6,7 @@ var bird = {
   quote: "Nevermore",
   maxOffspring: 5,
   noisy: true,
-  deadly: false
+  deadly: false,
 };
 
 var bear = {
@@ -17,12 +17,12 @@ var bear = {
   quote: "",
   maxOffspring: 3,
   noisy: true,
-  deadly: true
+  deadly: true,
 };
 
 var bookOfKnowledge = {
   "lunch time": "12:30 PM",
   "the ultimate answer": 42,
   bestSong: "Lonnie's Lament",
-  earth: "Mostly harmless."
+  earth: "Mostly harmless.",
 };

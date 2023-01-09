@@ -24,4 +24,5 @@ one >= two; // false
 10 >= two; // true
 
 // More info:
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#equality_operators
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#relational_operators

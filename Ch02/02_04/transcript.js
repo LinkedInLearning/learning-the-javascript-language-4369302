@@ -21,8 +21,7 @@ Math.random();
 Math.random();
 
 // More info:
-// https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Values,_variables,_and_literals
-// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Infinity
-// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Infinity
-// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/NaN
-// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math
+// https://developer.mozilla.org/en-US/docs/Glossary/Number
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math

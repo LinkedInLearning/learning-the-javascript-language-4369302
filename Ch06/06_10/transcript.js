@@ -15,3 +15,4 @@ doubleIt = number => (number *= 2);
 // https://developer.mozilla.org/en-US/docs/Glossary/Callback_function
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every

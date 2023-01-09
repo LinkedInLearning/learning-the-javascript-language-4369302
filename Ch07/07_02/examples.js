@@ -3,18 +3,18 @@
  */
 
 // With one, it's simple enough
-jQuery.get("https://httpbin.org/get?data=1", function (response) {
+jQuery.get("https://httpbin.org/get?data=1", function(response) {
   // Now I have some data
 });
 
 // Callbacks get nested ad infinitum
-jQuery.get("https://httpbin.org/get", function (response) {
+jQuery.get("https://httpbin.org/get", function(response) {
   // Now I have some data
 
-  jQuery.get("https://httpbin.org/get", function (response) {
+  jQuery.get("https://httpbin.org/get", function(response) {
     // Now I have some more data
 
-    jQuery.get("https://httpbin.org/get", function (response) {
+    jQuery.get("https://httpbin.org/get", function(response) {
       // Now I have even more data!
     });
   });
@@ -25,19 +25,19 @@ jQuery.get("https://httpbin.org/get", function (response) {
  */
 
 // One Promise
-axios.get("https://httpbin.org/get").then(function (response) {
+axios.get("https://httpbin.org/get").then(function(response) {
   // now I have some data
 });
 
 // Multiple promises in sequence, no nesting
 axios
   .get("https://httpbin.org/get")
-  .then(function (response) {
+  .then(function(response) {
     // now I have some data
 
     return axios.get("https://httpbin.org/get");
   })
-  .then(function (response) {
+  .then(function(response) {
     // now I have some data
 
     return axios.get("https://httpbin.org/get");

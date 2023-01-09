@@ -1,20 +1,16 @@
-function speakSomething(what) {
-  what = what || "Speaking!";
-
+function speakSomething(what = 'Speaking!') {
   for (var i = 0; i < 10; i += 1) {
     console.log(what);
   }
 }
 
-var speakSomething = function(what) {
-  what = what || "Speaking!";
-
+var speakSomething = function(what = 'Speaking!') {
   for (var i = 0; i < 10; i += 1) {
     console.log(what);
   }
 };
 
-window.setTimeout(speakSomething, 5000);
+setTimeout(speakSomething, 5000);
 
 var obj = {
   sayHello: function() {
@@ -25,5 +21,6 @@ var obj = {
 obj.sayHello();
 
 // More info:
-// https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Functions
-// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Statements/function
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function
+// https://developer.mozilla.org/en-US/docs/Glossary/Hoisting

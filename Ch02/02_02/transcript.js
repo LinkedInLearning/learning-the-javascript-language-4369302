@@ -20,5 +20,5 @@ Joe's Favorite \
 String EVER";
 
 // More info:
-// https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Values,_variables,_and_literals
-// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/String
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#literals
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String

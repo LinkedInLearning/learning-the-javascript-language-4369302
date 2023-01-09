@@ -11,6 +11,10 @@ for (var p in pageNames) {
   console.log(p, pageNames[p]);
 }
 
+for (var v of pageNames) {
+  console.log(v);
+}
+
 // iterate over an object
 var pages = {
   first: "Home",
@@ -26,4 +30,5 @@ for (var p in pages) {
 }
 
 // More info:
-// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Statements/for...in
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of

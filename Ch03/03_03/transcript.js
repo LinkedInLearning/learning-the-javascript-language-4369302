@@ -28,5 +28,5 @@ delete bird.color;
 bird;
 
 // More info:
-// https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Working_with_Objects
-// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Object
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object

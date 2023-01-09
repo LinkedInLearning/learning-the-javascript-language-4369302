@@ -26,4 +26,4 @@ switch (answer) {
 }
 
 // More info:
-// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Statements/switch
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch

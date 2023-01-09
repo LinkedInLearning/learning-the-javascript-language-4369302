@@ -1,3 +1,4 @@
+// Execute these in a browser
 var answer = window.confirm("Click OK, get true.  Click cancel, get false.");
 answer;
 
@@ -40,4 +41,4 @@ if (answer === "YES" || answer === "NO") {
 }
 
 // More info:
-// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Statements/if...else
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else

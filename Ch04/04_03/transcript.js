@@ -1,6 +1,8 @@
-var animal1 = "monkey";
-var animal2 = "bear";
-var animal3 = "tiger";
+let animal1 = "monkey";
+let animal2 = "bear";
+let animal3 = "tiger";
+
+// Pretend there's code that might change the values of the animal variables here, then…
 
 animal1 === "monkey" && animal2 === "bear"; // true
 animal1 === "ape" && animal2 === "bear"; // false
