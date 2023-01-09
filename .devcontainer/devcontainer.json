@@ -6,9 +6,8 @@
     "ritwickdey.LiveServer",
     "stylelint.vscode-stylelint"
   ],
-  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc" //Set Terminal Prompt to $,
   "settings": {
-    "workbench.colorTheme": "Default Light+"
+    "workbench.colorTheme": "Default Light+",
     "extensions.autoCheckUpdates": false,
     "editor.minimap.enabled": false,
     "editor.wordWrap": "on",
@@ -21,10 +20,9 @@
     },
     "terminal.integrated.fontSize": 18,
     "editor.fontSize": 18
-
   },
+  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc", // Set Terminal Prompt to $
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "npm install",
+  "updateContentCommand": "npm install"
 }
-
 // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
