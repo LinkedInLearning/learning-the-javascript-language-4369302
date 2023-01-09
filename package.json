@@ -1,0 +1,11 @@
+{
+  "name": "learningjs-exercise-files",
+  "version": "1.0.0",
+  "description": "Exercise files for Learning the JavaScript Language",
+  "author": "Joe Chellman",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.8.1",
+    "readline-sync": "^1.4.10"
+  }
+}
