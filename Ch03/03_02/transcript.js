@@ -1,4 +1,4 @@
-var bird = {
+let bird = {
   genus: "corvus",
   species: "corvax",
   commonName: "raven",
@@ -9,7 +9,7 @@ var bird = {
   deadly: false,
 };
 
-var bear = {
+let bear = {
   genus: "ursus",
   species: "arctos",
   commonName: "brown bear",
@@ -20,7 +20,7 @@ var bear = {
   deadly: true,
 };
 
-var bookOfKnowledge = {
+const bookOfKnowledge = {
   "lunch time": "12:30 PM",
   "the ultimate answer": 42,
   bestSong: "Lonnie's Lament",
