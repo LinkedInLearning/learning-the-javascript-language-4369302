@@ -7,7 +7,7 @@ var year = 2012,
 	day = 31,
 	holiday = 'Halloween';
 	
-var year    = 2012,
+var year  = 2012,
 	month   = 'October',
 	day     = 31,
 	holiday = 'Halloween';
