@@ -41,12 +41,13 @@ function transmogrifier(calvin) {
 // this version of the transmogifier does return a copy, leaving the original alone
 function transmogrifyCopy(calvin) {
   if (typeof calvin !== "object") {
-    console.log("argument is of the wrong type");
+    console.error("Calvin is not an object.");
     return;
   }
 
   // generate a random number between 1 and 5
   var randomNumber = Math.floor(Math.random() * 5) + 1;
+  
   var newForm = calvin.form; // by default, do not change
 
   switch (randomNumber) {

@@ -11,8 +11,8 @@
 // twenty an even number?
 20 % 2 === 0; // true
 
-const totalResults = 254;
 const perPage = 20;
+const totalResults = 254;
 totalResults % perPage;
 
 var counter = 0;

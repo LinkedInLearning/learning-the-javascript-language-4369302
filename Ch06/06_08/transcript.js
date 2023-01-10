@@ -34,5 +34,4 @@ const isEven = num => num % 2 === 0;
 
 
 // More info:
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
