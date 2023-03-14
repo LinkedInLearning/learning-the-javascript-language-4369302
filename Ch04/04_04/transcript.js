@@ -1,6 +1,5 @@
 // Execute these in a browser
 var answer = window.confirm("Click OK, get true.  Click cancel, get false.");
-answer;
 
 if (answer === true) {
   console.log("You said true!");
