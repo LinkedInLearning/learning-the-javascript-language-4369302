@@ -17,7 +17,6 @@ totalResults % perPage;
 
 var counter = 0;
 counter = counter + 1;
-counter;
 
 counter += 1;
 counter++;
@@ -34,6 +33,8 @@ counter *= 2;
 "cat" + "dog";
 "cat " + "dog";
 "cat" + " and " + "dog";
+
+"1" + "2";
 
 // More info:
 // https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Expressions_and_Operators#Arithmetic_operators

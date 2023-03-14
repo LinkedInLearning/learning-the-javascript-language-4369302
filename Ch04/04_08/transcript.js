@@ -25,8 +25,11 @@ Number.isNaN();
 typeof null;
 thing === null;
 thing = null;
-thing;
 thing === null;
+
+let somethingLater;
+typeof somethingLater;
+typeof nothingSilly;
 
 // More info:
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof

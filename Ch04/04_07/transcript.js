@@ -7,6 +7,9 @@ animal === "cat"
 
 var job = animal === "cat" ? "cat herder" : "dog catcher";
 
+// prettier-ignore
+var job = (animal === "cat") ? "cat herder" : "dog catcher";
+
 // More info:
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#if...else_statement
 //

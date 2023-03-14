@@ -1,3 +1,6 @@
+// &&
+// ||
+
 let animal1 = "monkey";
 let animal2 = "bear";
 let animal3 = "tiger";
@@ -19,9 +22,10 @@ animal1 === "monkey" || animal2 === "monkey" && animal3 === "tiger";
 !true; // false
 !false; // true
 
-animal1 === "monkey" && animal2 === "bear"; // true
-!(animal1 === "monkey" && animal2 === "bear"); // false
-animal1 !== "monkey" && animal2 !== "bear"; // false
+animal1 === "monkey" && animal2 === "zebra"; // false
+!(animal1 === "monkey" && animal2 === "zebra"); // true
+animal1 !== "monkey" && animal2 !== "zebra"; // false
+animal1 !== "monkey" || animal2 !== "zebra"; // true
 
 // More info:
 // https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Expressions_and_Operators#Logical_operators
