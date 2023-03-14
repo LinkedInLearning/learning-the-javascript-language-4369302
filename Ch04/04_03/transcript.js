@@ -1,9 +1,7 @@
 // &&
 // ||
 
-let animal1 = "monkey";
-let animal2 = "bear";
-let animal3 = "tiger";
+let animal1 = "monkey", animal2 = "bear", animal3 = "tiger";
 
 // Pretend there's code that might change the values of the animal variables here, then…
 
