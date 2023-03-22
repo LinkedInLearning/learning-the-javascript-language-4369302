@@ -1,7 +1,7 @@
 var calvin = {
   name: "Calvin",
   bestFriend: "Hobbes",
-  form: "human boy"
+  form: "human boy",
 };
 
 // you can also pass an object to a function
@@ -47,7 +47,7 @@ function transmogrifyCopy(calvin) {
 
   // generate a random number between 1 and 5
   var randomNumber = Math.floor(Math.random() * 5) + 1;
-  
+
   var newForm = calvin.form; // by default, do not change
 
   switch (randomNumber) {
@@ -77,7 +77,7 @@ function transmogrifyCopy(calvin) {
   return {
     name: calvin.name,
     bestFriend: calvin.bestFriend,
-    form: newForm
+    form: newForm,
   };
 }
 

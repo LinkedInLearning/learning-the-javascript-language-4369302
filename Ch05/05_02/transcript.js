@@ -5,8 +5,13 @@ var pageNames = [
   "Contact Us",
   "JavaScript Playground",
   "News",
-  "Blog"
+  "Blog",
 ];
+
+for (let i = 0; i < pageNames.length; i += 1) {
+  console.log(i, pageNames[i]);
+}
+
 for (var p in pageNames) {
   console.log(p, pageNames[p]);
 }
@@ -21,7 +26,7 @@ var pages = {
   second: "About Us",
   third: "Contact Us",
   fourth: "JavaScript Playground",
-  fifth: "Blog"
+  fifth: "Blog",
 };
 for (var p in pages) {
   if (pages.hasOwnProperty(p)) {

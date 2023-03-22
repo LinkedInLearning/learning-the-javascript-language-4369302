@@ -4,8 +4,8 @@ function speakSomething(what = "Default speech", howMany = 10) {
   }
 }
 
-speakSomething("Hey hey", 5);
-speakSomething("Hey hey");
+speakSomething("Good morning", 5);
+speakSomething("Good morning");
 speakSomething();
 
 function addingMachine() {
