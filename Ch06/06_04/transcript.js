@@ -5,7 +5,7 @@ var calvin = {
 };
 
 // you can also pass an object to a function
-// because objects are passed by reference, the argument will be modified
+// because objects are using a copy of a reference, the argument will be modified
 function transmogrifier(calvin) {
   if (typeof calvin !== "object") {
     console.error("Calvin is not an object.");
