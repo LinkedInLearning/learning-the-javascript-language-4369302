@@ -1,19 +1,18 @@
-
 // Before:
-function speak() {
-	console.log('Arf');
-	console.log('Woof');
-	console.log('Meow');
-	console.log('Moooooooooooo');
-}
+const speak = function () {
+  console.log("Arf");
+  console.log("Woof");
+  console.log("Meow");
+  console.log("Moooooooooooo");
+};
 
 // After:
 const speak = () => {
-	console.log('Arf');
-	console.log('Woof');
-	console.log('Meow');
-	console.log('Moooooooooooo');
-}
+  console.log("Arf");
+  console.log("Woof");
+  console.log("Meow");
+  console.log("Moooooooooooo");
+};
 
 // Before:
 function isEven(num) {
@@ -21,17 +20,16 @@ function isEven(num) {
 }
 
 // After:
-const isEven = (num) => {
-	return num % 2 === 0;
-}
+let isEven = (num) => {
+  return num % 2 === 0;
+};
 
 // or:
-const isEven = (num) => num % 2 === 0;
+isEven = (num) => num % 2 === 0;
 
 // And most succinctly:
-const isEven = num => num % 2 === 0;
-
-
+// prettier-ignore
+isEven = num => num % 2 === 0;
 
 // More info:
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
