@@ -27,12 +27,12 @@ function isEven(num) {
   }
 }
 
+isEven(12);
+12 % 2;
+
 function isEven(num) {
   return num % 2 === 0;
 }
-
-12 % 2;
-isEven(44);
 
 // More info:
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
