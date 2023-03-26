@@ -6,24 +6,22 @@ if (cherub === "Cupid") console.log("Ouch, an arrow!  Ooo, I'm in love!");
 if (cherub === "Cupid") console.log("Ouch, an arrow!  Ooo, I'm in love!");
 else console.log("I feel nothing!");
 
-var wantForBirthday = "soccer ball",
-  gotForBirthday = "soccer ball",
-  isDisappointed = false;
+let errorMsg = '';
 
-if (wantForBirthday === gotForBirthday) {
-  console.log("Yay! The child is so pleased!");
-  isDisappointed = false;
-} else {
-  console.log("Oh no! There are many sad expressions!");
-  isDisappointed = true;
+if (error) {
+  console.error('There was an error', error);
 }
 
-if (isDisappointed) {
-  console.log("The child says: O woe is me! Catastrophe has struck this day!");
+if (!error) {
+  console.log('Yay! No errors!');
 }
 
-if (!isDisappointed) {
-  console.log("Child says: YAY!! I will treasure this day!");
+let errors = [];
+
+// if (errors) { // Nope - empty arrays are truthy
+
+if (errors.length) {
+  console.error("Please fix these errors", errors);
 }
 
 // More info:
