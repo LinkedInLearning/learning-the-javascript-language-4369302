@@ -8,11 +8,11 @@ else console.log("I feel nothing!");
 
 let errorMsg = '';
 
-if (error) {
-  console.error('There was an error', error);
+if (errorMsg) {
+  console.error('There was an error', errorMsg);
 }
 
-if (!error) {
+if (!errorMsg) {
   console.log('Yay! No errors!');
 }
 
