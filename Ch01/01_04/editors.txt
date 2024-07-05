@@ -3,3 +3,11 @@ https://www.sublimetext.com/
 http://brackets.io/
 https://www.jetbrains.com/phpstorm/
 https://www.jetbrains.com/webstorm/
+
+Java free book: 
+https://eloquentjavascript.net/
+https://exploringjs.com
+https://github.com/getify/You-Dont-Know-JS
+https://developer.mozilla.org
+https://caniuse.com
+https://quirksmode.org

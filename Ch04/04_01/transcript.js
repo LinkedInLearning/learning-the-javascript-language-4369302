@@ -8,6 +8,7 @@ one === two; // false
 
 one == one; // true
 one == "1"; // true (?!)
+//== converts the data type
 one != "1"; // false (?!)
 one === "1"; // false
 

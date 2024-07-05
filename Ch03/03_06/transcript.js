@@ -19,8 +19,10 @@ counties.pop();
 
 delete counties[2];
 counties;
+//this will not delete the space occupied by counties[2], to delete space use splice.
 
 counties.splice(2, 1);
+//2=position of the item to delete, 1= no of items to delete.
 counties;
 counties.length;
 

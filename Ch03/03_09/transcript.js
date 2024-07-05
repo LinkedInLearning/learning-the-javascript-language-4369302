@@ -11,10 +11,13 @@ regex.test(string3);
 regex.test(string4);
 
 regex = /this/i;
+//"/i" by adding this, it will ignore letter case
 
 regex = /^this/i;
+// this will comes true for all this come at the begining of the line
 
 regex = /this$/i;
+
 
 regex = /ever.$/i;
 

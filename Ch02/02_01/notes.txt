@@ -1,0 +1,9 @@
+variable:
+var x = 25;
+var WhereAmI="Austin, Texas"
+var variable1=1, variable2=2,..
+we can delare more variables in one line
+We cannot use reserved words as variable key. search for js reserved words in mozella
+
+Strings:
+02_02

@@ -3,6 +3,7 @@ myArray;
 
 var daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday"];
 daysOfTheWeek;
+//the order is preserved for arrays
 
 var myList = [0, 1, 2, "string1", "string2", "string3", true, false];
 myList;
